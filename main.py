@@ -29,6 +29,7 @@ lesson = {
     '金曜日の時間割':'金曜日は\n1:さんすう\n2:こくご\n3:がっかつ\nです。'
 }
 
+
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
